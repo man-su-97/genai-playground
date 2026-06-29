@@ -1,15 +1,23 @@
 # GenAI Playground
 
-A learning repository for modern Generative AI development using the OpenAI Python SDK, prompt engineering, LangChain, and Retrieval-Augmented Generation (RAG).
+A hands-on learning repository for building modern LLM applications using the OpenAI Python SDK.
 
-## Topics
+## Topics Covered
 
 - Prompt Engineering
 - OpenAI Responses API
 - Chat Completions API
 - LangChain
-- RAG
+- Retrieval-Augmented Generation (RAG)
 - Embeddings
+- Function Calling
+- Agents
+
+## Tech Stack
+
+- Python 3.12
+- OpenAI Python SDK
+- python-dotenv
 
 ## Setup
 
@@ -18,3 +26,10 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+python main.py
+```
